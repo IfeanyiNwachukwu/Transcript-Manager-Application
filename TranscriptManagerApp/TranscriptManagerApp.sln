@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscriptManagerClient", "TranscriptManagerClient.csproj", "{73D3773A-99AD-4B42-AA7B-09F5C53ED531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagerClient", "TranscriptManagerClient.csproj", "{73D3773A-99AD-4B42-AA7B-09F5C53ED531}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscriptManagement", "..\TranscriptManagement\TranscriptManagement.csproj", "{CFE0E0C0-DFED-427D-ABB4-43F30C7486E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagement", "..\TranscriptManagement\TranscriptManagement.csproj", "{CFE0E0C0-DFED-427D-ABB4-43F30C7486E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscriptManagerPersistence", "..\TranscriptManagerPersistence\TranscriptManagerPersistence.csproj", "{B6A7ED3D-367F-4684-9782-504B6CAEE04F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranscriptManagerTesta", "..\TranscriptManagerTesta\TranscriptManagerTesta.csproj", "{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CFE0E0C0-DFED-427D-ABB4-43F30C7486E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE0E0C0-DFED-427D-ABB4-43F30C7486E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE0E0C0-DFED-427D-ABB4-43F30C7486E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A7ED3D-367F-4684-9782-504B6CAEE04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A7ED3D-367F-4684-9782-504B6CAEE04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A7ED3D-367F-4684-9782-504B6CAEE04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A7ED3D-367F-4684-9782-504B6CAEE04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
