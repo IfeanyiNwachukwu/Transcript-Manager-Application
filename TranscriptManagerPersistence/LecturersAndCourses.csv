@@ -1,0 +1,85 @@
+GSP101,Use of English 1,,,,General Studies,,,2,Dr. Akubugwo
+GSP111,Use of Library,,,,General Studies,,,2,Dr. Chetachukwu
+COS101,Introduction to Computer Science,,,,Core/Compulsory Courses,,,2,Dr. Akpanta
+MTH111,Elementary Mathematics,,,,Core/Compulsory Courses,,,3,Dr. Osu
+MTH121,Elementary  Mathematics II,,,,Core/Compulsory Courses,,,3,Dr. Osuji
+PHY115,General Physics for Physical Sciences 1,,,,Required Ancillary Courses,,,2,Prof. Anthony
+PHY191,General Physics ,,,,Required Ancillary Courses,,,3,Prof. Anthony
+BIO151,General Biology 1,,,,Required Ancillary Courses,,,2,Prof. Ugbogu
+CHM101,Basic Principles of Chemistry 1,,,,Required Ancillary Courses,,,2,Prof. Jude
+ENG101,Introduction to Engineering 1,,,,Elective/Optional Courses,,,2,Prof. Nnorom
+STA111,Probability 1,,,,Elective/Optional Courses,,,2,Prof. Akpanta
+STA131,Inference,,,,Elective/Optional Courses,,,2,Prof. Akpanta
+GSP102,Use of English II,,,,General Studies,,,2,Dr. Akubugwo
+COS102,Introduction to Computer System,,,,Compulsory Courses,,,2,Prof. Nwachukwu
+COS104,Computing Practice,,,,Compulsory Courses,,,2,Prof. Adetola
+MTH122,Elementary Mathematics III,,,,Required Ancillary Courses,,,3,Prof. Iheukwumere
+PHY116,General Physics for Physical Sciences II,,,,Required Ancillary Courses,,,2,Prof. Ohakwe
+PHY118,General Physics for Physical Sciences III,,,,Required Ancillary Courses,,,2,Prof. Anthony
+BIO152,General Biology II,,,,Required Ancillary Courses,,,3,Prof. Elem
+CHM111,Basic Principles of Chemistry II,,,,Required Ancillary Courses,,,2,Prof. Ogbuagu
+ENG102,Applied Mechanics,,,,Required Ancillary Courses,,,3,Prof. Igwe
+MTH132,Elementary Mathematics IV,,,,Required Ancillary Courses,,,3,Prof. Osu
+STA112,Probability II,,,,Elective/Optional Courses,,,2,Prof. Akpanta
+STA132,Inference II,,,,Elective/Optional Courses,,,2,Prof. Akpanta
+STA172,Laboratory for Inference,,,,Elective/Optional Courses,,,2,Prof. Obidigbo
+GSP201,Basic Concepts of Peace,,,,General Studies,,,2,Dr. Chetachukwu
+GSP207,Humanities I,,,,General Studies,,,2,Dr. Chetachukwu
+COS201,Computer Programming I,,,,Core/Compulsory Courses,,,2,Prof. Witherspoon
+COS251,Machine and Assembly Language,,,,Core/Compulsory Courses,,,2,Prof. Winslow
+MTH215,Linear Algebra I,,,,Required Ancillary Courses,,,2,Prof. Gregory
+STA205,Statis for Phys. Sc and Engineering I,,,,Required Ancillary Courses,,,2,Prof. Njoku
+EE211,Basic Electrical Engineering,,,,Elective/Optional Courses,,,3,Prof. Njemanze
+MTH211,Set Logic and Algebra,,,,Elective/Optional Courses,,,3,Prof. Gregory
+MTH221,Real Analysis I,,,,Elective/Optional Courses,,,3,Prof. Gregory
+GSP208,Humanities II,,,,General Studies,,,2,Dr. Akubugwo
+GSP202,Issues in Conflict Resolution,,,,General Studies,,,2,Dr. Akubugwo
+COS222,Computer Programming II,,,,Core/Compulsory Courses,,,2,Prof. Nwachukwu
+MTH216,Linear Algebra II,,,,Core/Compulsory Courses,,,2,Prof. Gregory
+MTH222,Elementary Differential Equation I,,,,Core/Compulsory Courses,,,2,Prof. Njokwu
+MTH242,Mathematical Methods I,,,,Core/Compulsory Courses,,,2,Dr. Ojukwu
+STA206,Stats for Phy. Sc. And Engineering,,,,Elective/Optional Courses,,,3,Prof. Njokwu
+COS301,Introduction To Digital Design,,,,Core/Compulsory Courses,,,2,Prof. Ugbogu
+COS303,Intro to Micro Computer Systems,,,,Core/Compulsory Courses,,,2,Prof. Cavalry
+COS311,Numerical Methods I,,,,Core/Compulsory Courses,,,2,Prof. Winslow
+COS331,Compiler Construction,,,,Core/Compulsory Courses,,,2,Prof. Albertson
+COS333,Operating Systems I,,,,Core/Compulsory Courses,,,2,Prof. Albertson
+COS341,Computer Architecture,,,,Core/Compulsory Courses,,,2,Prof. Zuckerberg
+MTH341,Discrete Mathematics I,,,,Core/Compulsory Courses,,,2,Prof. Adegboye
+COS313,Switching Algebra & Discrete Structures,,,,Core/Compulsory Courses,,,2,Prof. Adegboye
+COS315,Operation Research 1,,,,Core/Compulsory Courses,,,2,Prof. Johnson
+COS321,Database Design and Management I,,,,Core/Compulsory Courses,,,2,Prof. Johnson
+COS335,Systems Analysis & Design,,,,Core/Compulsory Courses,,,2,Prof. Winslow
+ECE311,Circuit Theory I,,,,Elective/Optional Courses,,,2,Prof. Uchendu
+ECE321,Physical Electronics,,,,Elective/Optional Courses,,,3,Prof. Uchendu
+COS352,Data Structures,,,,Core/Compulsory Courses,,,2,Prof.Uchendu
+COS372,Laboratory for Digital Design,,,,Core/Compulsory Courses,,,2,prof. Umogbai
+COS374,student Industrial Work Experience,,,,Core/Compulsory Courses,,,2,prof. Umogbai
+COS314,Switching Algebra & Discrete Struct II,,,,Elective/Optional Courses,,,2,Prof. Williams
+MTH342,Discrete Mathematics II,,,,Elective/Optional Courses,,,2,Prof. Williams
+COS316,Automata Theory & Formal Languages,,,,Elective/Optional Courses,,,2,Prof. Williams
+COS322,Database Design & Management II,,,,Elective/Optional Courses,,,2,Prof. Johnson
+COS334,Operating Systems II,,,,Elective/Optional Courses,,,2,Prof. Johnson
+COS342,Computer Architecture II,,,,Elective/Optional Courses,,,2,Prof. Albertson
+ECE312,Circuit Theory II,,,,Elective/Optional Courses,,,3,Prof. Camus
+ECE332,Applied Electronics,,,,Elective/Optional Courses,,,2,Prof. Toye
+COS451,Algorithms,,,,Core/Compulsory Courses,,,2,Prof. Ibrahim
+COS461,Organisation of Programming Languages,,,,Core/Compulsory Courses,,,2,Prof. Ibrahim
+COS471,Project,,,,Core/Compulsory Courses,,,15,prof. Wilson
+COS415,Systems Modelling & Simulation,,,,Core/Compulsory Courses,,,2,Prof. Wilson
+COS411,Numerical Method ,,,,Core/Compulsory Courses,,,2,Prof. Akpanta
+COS413,Queing Theory,,,,Core/Compulsory Courses,,,2,Prof. Obieze
+COS431,Software Engineering & Management,,,,Elective/Optional Courses,,,2,Prof. Albertson
+COS453,Computer Process Control,,,,Elective/Optional Courses,,,2,Prof. Holjberg
+COS455,Data Communication & Networks I,,,,Elective/Optional Courses,,,2,Prof. Orlando
+COS457,Computer Graphic,,,,Elective/Optional Courses,,,2,prof. Orlando
+COS452,Computer Centre Management,,,,Core/Compulsory Courses,,,2,Prof. Uchechukwu
+COS462,Structured Programming,,,,Core/Compulsory Courses,,,2,Prof. Camus
+COS432,Compiler Construction,,,,Core/Compulsory Courses,,,2,Prof. Wilson
+COS454,Artificial Intelligence,,,,Core/Compulsory Courses,,,2,Prof. Renzi
+COS444,Operation Research II,,,,Core/Compulsory Courses,,,2,Prof. Renzi
+COS412,Computer Performance Evaluation,,,,Core/Compulsory Courses,,,2,Prof. Renzi
+COS458,Expert Systems,,,,Elective/Optional Courses,,,2,Prof. Cleeren
+COS464,Concurrent Programming,,,,Elective/Optional Courses,,,2,Prof. Cleeren
+COS472,Advanced Digital Laboratory,,,,Elective/Optional Courses,,,3,Prof. Cleeren
+COS459,Data Comm & Networking II,,,,Elective/Optional Courses,,,2,Prof. Cleeren
