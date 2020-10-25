@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
+using TranscriptManagerPersistence.Repositories;
 
 namespace TranscriptManagerApp
 {
@@ -6,7 +10,9 @@ namespace TranscriptManagerApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+          
+
         }
+
     }
 }

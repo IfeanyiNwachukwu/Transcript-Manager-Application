@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TranscriptManagement\TranscriptManagement.csproj" />
     <ProjectReference Include="..\TranscriptManagerPersistence\TranscriptManagerPersistence.csproj" />
   </ItemGroup>
 
