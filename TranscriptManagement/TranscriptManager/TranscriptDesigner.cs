@@ -8,7 +8,7 @@ namespace TranscriptManagement.TranscriptManager
     {
 
     }
-    public class TranscriptDesigner
+    public class TranscriptDesigner : ITranscriptDesigner
     {
     }
 }

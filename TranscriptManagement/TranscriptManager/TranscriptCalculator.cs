@@ -17,13 +17,11 @@ namespace TranscriptManagement.TranscriptManager
     }
     public class TranscriptCalculator : ITranscriptCalculator
     {
-        string pathLecturer = "LecturerList.txt";
-        string pathStudent = "AuthenticScores.csv";
-        IReadContext _context;
-        public TranscriptCalculator(IReadContext context)
-        {
-            _context = context;
-        }
+        
+        //public TranscriptCalculator(IModelContext context)
+        //{
+        //    _context = context;
+        //}
         public decimal CalcCGPA()
         {
             throw new System.NotImplementedException();

@@ -1,7 +1,16 @@
-﻿namespace TranscriptManagerClient
+﻿using System.Text;
+
+namespace TranscriptManagerClient
 {
-    public class TranscriptServices
+    public interface ITranscriptServices
     {
-        // code here will be responsible for running the application
+        void Run();
+    }
+    public class TranscriptServices : ITranscriptServices
+    {
+        public void Run()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
