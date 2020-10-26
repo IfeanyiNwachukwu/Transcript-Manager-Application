@@ -22,14 +22,6 @@ namespace TranscriptManagerApp
             service.Run();
 
 
-
-
-
-
-
-
-
-
         }
 
         private static void Configure(IServiceCollection services)
