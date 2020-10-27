@@ -10,7 +10,7 @@ namespace TranscriptManagement.Commands
 
         protected override bool InternalCommand()
         {
-            Interface.WriteMessage("You have entered an unknown command. Please enter '?' ");
+            Interface.WriteMessage("You have entered an unknown command. Please enter '?' to view available options. ");
             return false;
         }
     }

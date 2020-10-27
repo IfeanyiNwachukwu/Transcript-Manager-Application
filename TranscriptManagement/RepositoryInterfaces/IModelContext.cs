@@ -8,5 +8,6 @@ namespace TranscriptManagement.RepositoryInterfaces
         List<Student> GetAllStudents(string path);
         List<StudentDetail> GetDetailForSTudent(string pathCourses, string pathStudents, string matric);
         List<StudentDetail> GetDetailsForStudentBasedOnSession(string pathCourses, string pathStudents, string matric, int studyLevel);
+        Student GetStudent(string matric, string path);
     }
 }

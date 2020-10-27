@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using TranscriptManagement.Models;
 using TranscriptManagement.RepositoryInterfaces;
-using TranscriptManagement.UserInterfaces;
 
 namespace TranscriptManagement.TranscriptManager
 {
@@ -11,6 +10,12 @@ namespace TranscriptManagement.TranscriptManager
     {
         decimal CalcCGPAPerSession(string matricNumber, int studyLevel);
         decimal CalcCGPAForAllSessions(string matricNumber);
+        int CalculateTotalUnitsPerSession(string matricNumber, int studyLevel);
+        int CalcTotalPointsPerSession(string matricNumber, int studyLevel);
+        int CalculateTotalUnitsForAllSessions(string matricNumber);
+        int CalcTotalPointsforAllSessions(string matricNumber);
+        int CalcTotalScorePerSession(string matricNumber, int studyLevel);
+        int CalcTotalScoreForAllSessions(string matricNumber);
 
     }
     public class TranscriptCalculator : ITranscriptCalculator
@@ -22,7 +27,7 @@ namespace TranscriptManagement.TranscriptManager
             _context = modelCOntext;
             _filePath = filePaths;
         }
-      
+
 
         public decimal CalcCGPAPerSession(string matricNumber, int studyLevel)
         {
@@ -39,25 +44,25 @@ namespace TranscriptManagement.TranscriptManager
             return CGPA;
         }
 
-        private int CalcTotalPointsPerSession(string matricNumber, int studyLevel)
+        public int CalcTotalPointsPerSession(string matricNumber, int studyLevel)
         {
-            var results = _context.GetDetailsForStudentBasedOnSession( pathCourses:_filePath.pathCourses,pathStudents: _filePath.pathStudent,matric:matricNumber,studyLevel:studyLevel);
+            var results = _context.GetDetailsForStudentBasedOnSession(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber, studyLevel: studyLevel);
             var totalPoints = CalculatePoints(results);
             return totalPoints;
         }
 
-      
 
-        private int CalculateTotalUnitsPerSession(string matricNumber, int studyLevel)
+
+        public int CalculateTotalUnitsPerSession(string matricNumber, int studyLevel)
         {
             return _context.GetDetailsForStudentBasedOnSession(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber, studyLevel: studyLevel).Sum(c => c.Unit);
         }
-        private int CalculateTotalUnitsForAllSessions(string matricNumber)
+        public int CalculateTotalUnitsForAllSessions(string matricNumber)
         {
             return _context.GetDetailForSTudent(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber).Sum(c => c.Unit);
         }
 
-        private int CalcTotalPointsforAllSessions(string matricNumber)
+        public int CalcTotalPointsforAllSessions(string matricNumber)
         {
             var results = _context.GetDetailForSTudent(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber);
             var totalPoints = CalculatePoints(results);
@@ -99,6 +104,16 @@ namespace TranscriptManagement.TranscriptManager
             return gradePoints;
         }
 
+        public int CalcTotalScorePerSession(string matricNumber, int studyLevel)
+        {
+            return _context.GetDetailsForStudentBasedOnSession(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber, studyLevel: studyLevel).Sum(c => c.Score);
+        }
+
+        public int CalcTotalScoreForAllSessions(string matricNumber)
+        {
+            return _context.GetDetailForSTudent(pathCourses: _filePath.pathCourses, pathStudents: _filePath.pathStudent, matric: matricNumber).Sum(c => c.Score);
+        }
+
         // 70 - 100 (A) 5
         // 60 - 69 (B)  4
         // 50 - 59 (c)  3
@@ -106,8 +121,8 @@ namespace TranscriptManagement.TranscriptManager
         // 40 -  45 (E) 1
         // 0 - 39 (F) 0
     }
-    public enum Grading 
-    { 
+    public enum Grading
+    {
         Fail,
         WeakPass,
         Pass,

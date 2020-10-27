@@ -51,6 +51,10 @@ namespace TranscriptManagerPersistence.Repositories
             return students;
         }
 
+        public Student GetStudent(string matric,string path)
+        {
+            return GetAllStudents(path).Where(s => s.MatriculationNumber == matric).FirstOrDefault();
+        }
         List<Result> GetAllStudentResult(string path)
         {
             var files = Directory.GetFiles(path, "*.csv");

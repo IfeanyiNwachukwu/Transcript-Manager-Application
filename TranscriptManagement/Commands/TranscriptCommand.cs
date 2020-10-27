@@ -1,4 +1,7 @@
-﻿using TranscriptManagement.UserInterfaces;
+﻿using System;
+using TranscriptManagement.TranscriptManager;
+using TranscriptManagement.UserInterfaces;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TranscriptManagement.Commands
 {
@@ -30,10 +33,28 @@ namespace TranscriptManagement.Commands
             var input = Interface.ReadMessage($"Please enter {parameterName}");
             return input;
         }
-
-       
-
         protected abstract bool InternalCommand();
-        
+
+
+        public static Func<IServiceProvider, Func<string, TranscriptCommand>> GetTranscriptCommand => provider => input =>
+        {
+            switch (input.ToLower())
+            {
+                case "q":
+                case "quit":
+                    return new QuitCommand(provider.GetService<IUserInterface>());
+                case "ga":
+                case "gettranscriptforallsessioncommand":
+                    return new GetTranscriptForAllSessionCommand(provider.GetService<IUserInterface>(), provider.GetService<ITranscriptDesigner>());
+                case "gs":
+                case "gettranscriptforasession":
+                    return new GetTranscriptForASession(provider.GetService<IUserInterface>(), provider.GetService<ITranscriptDesigner>());
+                case "?":
+                    return new HelpCommand(provider.GetService<IUserInterface>());
+                default:
+                    return new UnknownCommand(provider.GetService<IUserInterface>());
+            }
+        };
+
     }
 }

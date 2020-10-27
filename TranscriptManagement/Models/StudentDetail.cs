@@ -10,6 +10,7 @@
         public string Name { get; set; }
         public int Unit { get; set; }
         public int Score { get; set; }
+        public int GradePoint { get; set; }
 
     }
 }

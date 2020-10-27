@@ -12,9 +12,13 @@ namespace TranscriptManagement.Commands
         {
             Interface.WriteMessage("USAGE:");
             Interface.WriteMessage("\tgettranscript (g)");
-            Interface.WriteMessage("\tprinttranscript (p)");
             Interface.WriteMessage("\tquit (q)");
             Interface.WriteMessage("\t?");
+
+            Interface.WriteMessage("Examples");
+            Interface.WriteMessage("GET TRANSCRIPT");
+            
+
            
             return true;
         }
