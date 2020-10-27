@@ -11,10 +11,15 @@ namespace TranscriptManagement.Commands
         protected override bool InternalCommand()
         {
             Interface.WriteMessage("USAGE:");
-            Interface.WriteMessage("\tgettranscript (g)");
-            Interface.WriteMessage("\tprinttranscript (p)");
+            Interface.WriteMessage("\tget transcript for all sessions (ga)");
+            Interface.WriteMessage("\tget transcript for one session (gs) ");
             Interface.WriteMessage("\tquit (q)");
             Interface.WriteMessage("\t?");
+
+            Interface.WriteMessage("Examples");
+            Interface.WriteMessage("GET TRANSCRIPT");
+            
+
            
             return true;
         }
