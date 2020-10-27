@@ -17,6 +17,7 @@ namespace TranscriptManagement.Commands
         readonly ITranscriptDesigner _transcriptDesigner;
         public GetTranscriptForASession(IUserInterface userInterfaceN, ITranscriptDesigner transcriptDesigner) : base(userInterfaceN)
         {
+            _transcriptDesigner = transcriptDesigner;
         }
 
         public bool GetParameter()
