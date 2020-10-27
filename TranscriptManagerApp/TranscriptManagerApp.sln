@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagement", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagerPersistence", "..\TranscriptManagerPersistence\TranscriptManagerPersistence.csproj", "{B6A7ED3D-367F-4684-9782-504B6CAEE04F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagerTesta", "..\TranscriptManagerTesta\TranscriptManagerTesta.csproj", "{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TranscriptManagerTests", "..\TranscriptManagerTesta\TranscriptManagerTests.csproj", "{FFA6081E-C291-4A7B-98A3-C2E240BCCD5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
