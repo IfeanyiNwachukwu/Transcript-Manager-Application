@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Runtime.CompilerServices;
 using TranscriptManagement.Commands;
 using TranscriptManagement.RepositoryInterfaces;
 using TranscriptManagement.TranscriptManager;
@@ -35,7 +34,7 @@ namespace TranscriptManagerApp
             services.AddTransient<Func<string, TranscriptCommand>>(TranscriptCommand.GetTranscriptCommand);
 
             services.AddSingleton<IModelCOntext, ModelContext>();
-            
+
         }
     }
 }
